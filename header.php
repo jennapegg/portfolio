@@ -17,3 +17,9 @@
 </head>
 
 <body>
+
+<header>
+<p><a href="./index.php">Home</a></p>
+<p><a href="./about.php">About Me</a></p>
+<p><a href="#">Projects</a></p>
+</header>
