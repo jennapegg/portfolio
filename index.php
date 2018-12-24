@@ -10,7 +10,7 @@ include('functions.php');
     </section>
     <section class="projects">
       <?php 
-        get_projects($projects);
+        get_projects();
       ?>
     </section>
   </main>

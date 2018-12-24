@@ -1,37 +1,37 @@
 <?php
 
-function get_projects($projects){
+function get_projects(){
 
 $projects = array(
     array(
         'title' => 'UME Academy',
         'url' => 'https://ume.van.cp.academy.red/',
-        'thubmnail' => './images/profile.jpg'
+        'thumbnail' => 'images/profile.jpg'
     ),
     array(
         'title' => 'Quotes on Dev',
         'url' => '#',
-        'thubmnail' => './images/profile.jpg'
+        'thumbnail' => 'images/profile.jpg'
     ),
     array(
         'title' => 'Inhabitent',
         'url' => '#',
-        'thubmnail' => './images/profile.jpg'
+        'thumbnail' => 'images/profile.jpg'
     ),
     array(
         'title' => 'Pong',
         'url' => '#',
-        'thubmnail' => './images/profile.jpg'
+        'thumbnail' => 'images/profile.jpg'
     ),
     array(
         'title' => 'Instanews',
         'url' => 'https://jennapegg.github.io/instanews/',
-        'thubmnail' => './images/profile.jpg'
+        'thumbnail' => 'images/profile.jpg'
     ),
     array(
         'title' => 'Aloha',
         'url' => '#',
-        'thubmnail' => './images/profile.jpg'
+        'thumbnail' => 'images/profile.jpg'
     ),
 );
 ?>
