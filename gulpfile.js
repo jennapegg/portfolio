@@ -13,7 +13,7 @@ const sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('sass', function() {
   return gulp
-    .src('./sass/style.scss', { sourcemaps: true })
+    .src('./scss/style.scss', { sourcemaps: true })
     .pipe(sourcemaps.init())
     .pipe(prettyError())
     .pipe(sass())

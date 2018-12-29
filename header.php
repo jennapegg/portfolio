@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Jenna Pegg</title>
   <!-- My Style, note you can use style.min.css for Production -->
-  <link rel="stylesheet" href="./build/css/style.css">
+  <link rel="stylesheet" href="./build/css/style.min.css">
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <!-- jQuery CDN -->
