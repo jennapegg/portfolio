@@ -7,14 +7,13 @@ const prettyError = require('gulp-prettyerror');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
-//const terser = require('gulp-terser');
+const terser = require('gulp-terser');
 
 // Create basic Gulp tasks
 
-gulp.task('sass', function() {
-  return gulp
-    .src('./scss/style.scss', { sourcemaps: true })
-    .pipe(sourcemaps.init())
+gulp.task('sass', function(done) {
+  gulp
+    .src('./scss/*.scss', { sourcemaps: true })
     .pipe(prettyError())
     .pipe(sass())
     .pipe(
@@ -22,11 +21,12 @@ gulp.task('sass', function() {
         browsers: ['last 2 versions']
       })
     )
-    .pipe(gulp.dest('./'))
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest('./build/css'))
     .pipe(cssnano())
     .pipe(rename('style.min.css'))
-    .pipe(sourcemaps.write('../maps'))
-    .pipe(gulp.dest('./build/css'));
+    .pipe(gulp.dest('./build/css'))
+done();
 });
 
 gulp.task('lint', function() {
@@ -43,7 +43,7 @@ gulp.task(
   gulp.series('lint', function() {
     return gulp
       .src('./js/*.js')
-      //.pipe(terser())
+      .pipe(terser())
       .pipe(
         rename({
           extname: '.min.js'
@@ -71,8 +71,8 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('js/*.js', gulp.series('scripts'));
-  gulp.watch('sass/*.scss', gulp.series('sass'));
+  gulp.watch('./js/*.js', gulp.series('scripts'));
+  gulp.watch('./scss/**/*.scss', gulp.series('sass'));
 });
 
 gulp.task('default', gulp.parallel('browser-sync', 'watch'));
