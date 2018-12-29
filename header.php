@@ -21,5 +21,5 @@
 <header>
 <p><a href="./index.php">Home</a></p>
 <p><a href="./about.php">About Me</a></p>
-<p><a href="#">Projects</a></p>
+<p><a href="./projects.php">Projects</a></p>
 </header>
