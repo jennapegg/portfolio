@@ -1,5 +1,5 @@
 .name {
-    background: url(../../images/bluepinkbackground.jpg);
+    background: url(../../images/vinebackground.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -7,8 +7,9 @@
     align-items: center;
     justify-content: center;
     height: 400px;
+    color: rgb(197, 193, 193);
     img {
-        border-radius: 25%;
+        border-radius: 15%;
         width: 250px;
     }
 }

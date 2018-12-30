@@ -1,11 +1,11 @@
 header {
-    background: linear-gradient(rgb(87, 95, 99), rgb(255, 255, 255));
+    background:rgb(95, 61, 46);
     display: flex;
     justify-content: space-around;
     position: fixed;
     width: 100%;
     a {
-        color: rgb(0, 0, 0);
+        color: rgb(255, 253, 253);
         text-decoration: none;
         &:hover {
             color: red;
