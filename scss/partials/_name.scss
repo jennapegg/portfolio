@@ -5,11 +5,23 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    height: 400px;
-    color: rgb(197, 193, 193);
+    justify-content: flex-end;
+    height: 90vh;
+    min-height: 500px;
+    color: rgb(255, 228, 228);
     img {
-        border-radius: 15%;
-        width: 250px;
+        border-radius: 50%;
+        height: 250px;
     }
+    .description{
+        background: rgb(13, 65, 21);
+        width: 100%;
+        text-align: center;
+        margin-top: 15vh;
+        p {
+            font-size: 20px;
+            font-weight: bolder;
+        }
+    }
+   
 }
