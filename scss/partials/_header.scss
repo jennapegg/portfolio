@@ -1,0 +1,15 @@
+header {
+    background: linear-gradient(rgb(87, 95, 99), rgb(255, 255, 255));
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        &:hover {
+            color: red;
+        }
+    }
+
+}
