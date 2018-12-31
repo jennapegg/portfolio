@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(13, 65, 21);
+    color: white;
+    width: 100%;
+    a{
+        color: white;
+        text-decoration: none;
+        &:hover {
+            color: rgb(5, 39, 10);
+        }
+    }
+    i {
+        padding-right: 5px;
+    }
+}
