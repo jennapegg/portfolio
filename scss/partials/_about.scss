@@ -1,0 +1,21 @@
+.aboutname {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    background: url(../../images/vinebackgroundmobile.jpg);
+    background-size: cover;
+    color: white;
+    img {
+        width: 150px;
+        height: 165px;
+        border-radius: 50%;
+    }
+    h1 {
+        background: rgba(13, 65, 21, 0.8);
+        border-radius: 30px;
+        width: 45%;
+        text-align: center;
+    }
+}
