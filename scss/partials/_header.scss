@@ -1,14 +1,13 @@
 header {
-    background: rgb(13, 65, 21);
+    background: $background;
     display: flex;
     justify-content: space-around;
-    // position: fixed;
     width: 100%;
     a {
-        color: rgb(255, 253, 253);
+        color: $header-text;
         text-decoration: none;
         &:hover {
-            color: red;
+            color: $hover;
         }
     }
 

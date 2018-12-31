@@ -8,13 +8,13 @@
     justify-content: flex-end;
     height: 90vh;
     min-height: 500px;
-    color: rgb(255, 228, 228);
+    color: $header-text;
     img {
         border-radius: 50%;
         height: 250px;
     }
     .description{
-        background: rgb(13, 65, 21);
+        background: $background;
         width: 100%;
         text-align: center;
         margin-top: 15vh;
