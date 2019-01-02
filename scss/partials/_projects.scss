@@ -1,0 +1,38 @@
+.projects {
+    // background: rgba(68, 30, 55, 0.808);
+    background: $background-opaque;
+    // margin-top: 30px;
+    .gallery {
+    // position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+    // text-align: center;
+    margin-top: 30px;
+    &:last-of-type {
+        margin-bottom: 30px;
+    }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .title {
+            display: none;
+            width: 50%;
+            text-align: center;
+            background: $background;
+            color: $header-text;
+            padding: 10px;
+            border-radius: 40px;
+            margin-left: 25%;
+            &:hover {
+                color: $hover;
+            }
+        }
+        .description {
+            color: $header-text;
+        }
+    }
+}

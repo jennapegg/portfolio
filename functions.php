@@ -38,9 +38,10 @@ $projects = array(
 <?php foreach ($projects as $project):?>
     <div class="gallery">
         <a href="<?php print_r($project['url']); ?>" target="_blank">
-            <p><?php print_r($project['title']); ?></p>
+            <h3 class="title"><?php print_r($project['title']); ?></h3>
             <img src="<?php print_r($project['thumbnail']); ?>" alt="Website Thumbnail">
         </a>
+        <!-- <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium suscipit in temporibus, similique eveniet quas exercitationem omnis earum error magni quam nihil quia quos. Dolorem optio inventore in ut unde.</p> -->
     </div>
 <?php endforeach; 
 
