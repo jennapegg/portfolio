@@ -1,6 +1,6 @@
 <?php include('header.php') ?>
 <main>
-    <div class="aboutname">
+    <div class="name">
         <h1>About Me</h1>
         <!-- <img src="images/headshot.jpg" alt="Jenna Pegg headshot"> -->
     </div>
