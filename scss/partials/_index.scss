@@ -1,0 +1,27 @@
+.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $background-opaque; 
+    .indexabout {
+        width: 90%;
+        color: white;
+        a {
+            @include link;
+            border: $border;
+            padding: 5px;
+            &:hover {
+                color: $hover;
+                border: $border-hover;
+            }
+        }
+        .seeprojects {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../../images/quotesondev-thumbnail.png)no-repeat;
+            // background-size: 30%;
+            height: 250px;
+        }
+    }
+}
