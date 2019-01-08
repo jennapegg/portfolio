@@ -2,18 +2,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: $background-opaque; 
+    background: $background-opaque;
     .indexabout {
         width: 90%;
-        color: white;
+        color: $header-text;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 60vh; 
+        text-align: center;
+        p {
+            &:first-of-type {
+                padding-bottom: 10px;
+                text-align: left;
+            }
+        }
         a {
             @include link;
-            border: $border;
-            padding: 5px;
-            &:hover {
-                color: $hover;
-                border: $border-hover;
-            }
+            @include button;
         }
         .seeprojects {
             display: flex;

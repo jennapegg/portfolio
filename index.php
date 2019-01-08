@@ -12,8 +12,10 @@ include('functions.php')
       </div>
       <section class ="index">
         <div class="indexabout">
-          <p>I am an archaeology student turned web developer ready to take all of the skills learned from both career paths to my next adventure: a full time web development position.</p>
-          <p><a href="./about.php">Read More</a></p>
+          <div>
+            <p>I am an archaeology student turned web developer ready to take all of the skills learned from both career paths to my next adventure: a full time web development position.</p>
+            <p><a href="./about.php">Read More</a></p>
+          </div>
           <div class="seeprojects">
             <p><a href="./projects.php">See my Work</a></p>
           </div>
