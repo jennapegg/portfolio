@@ -19,9 +19,19 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../../images/quotesondev-thumbnail.png)no-repeat;
-            // background-size: 30%;
+            background: url(../../images/projectsbackground.png)no-repeat;
+            background-size: cover;
             height: 250px;
+            margin-bottom: 30px;
         }
     }
 }
+
+
+// background-size: 63.5%;
+// background-position: right -37% top 0, left -37% top 0, bottom -30% left -37%, bottom -20% right -37%;
+// height: 250px;
+// width: 100%;
+// background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../../images/quotesondev-thumbnail.png)no-repeat, url(../../images/inhabitent-thumbnail.png)no-repeat, url(../../images/instanews-thumbnail.png)no-repeat, url(../../images/aloha-thumbnail.png)no-repeat;
+// background-size: 233px;
+// background-position: left 160px top 0, right 170px top 0, bottom -30% right 170px, bottom -20% left 160px;
