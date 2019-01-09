@@ -1,12 +1,12 @@
 staging:
-    scheme: sftp
+    scheme: ftp
     host: jennapegg.com
     port: 21
     user: 2920916_jrpegg
     pass: Marni5670
     check: true
     include:
-      "./build/**": "./build/"
-    exclude: [ "README.md", ".gitignore", "./.eslintrc", "./gulpfile.js", "./package.json", "./package-lock.json", "./js/**", "./sass/**" ]
+      "build/**": "build/"
+    exclude: [ "README.md", ".gitignore", ".eslintrc", "gulpfile.js", "package.json", "package-lock.json", "js/**", "scss/**" ]
     path:
-        remote: http://localhost:81/portfolio/
+        remote: public_html/portfolio/
