@@ -10,4 +10,3 @@ staging:
     exclude: [ "README.md", ".gitignore", ".eslintrc", "gulpfile.js", "package.json", "package-lock.json", "js/**", "scss/**" ]
     path:
         remote: public_html/portfolio/
-        local: deploy/

@@ -15,17 +15,17 @@ $projects = array(
     ),
     array(
         'title' => 'Inhabitent',
-        'url' => '#',
+        'url' => './projects/Inhabitent',
         'thumbnail' => 'images/inhabitent-thumbnail.png'
     ),
     array(
         'title' => 'Pong',
-        'url' => 'https://jennapegg.github.io/Pong/',
+        'url' => './projects/pong-starter',
         'thumbnail' => 'images/pong-thumbnail.png'
     ),
     array(
         'title' => 'Instanews',
-        'url' => 'https://jennapegg.github.io/instanews/',
+        'url' => './projects/instanewsproject',
         'thumbnail' => 'images/instanews-thumbnail.png'
     ),
     array(
