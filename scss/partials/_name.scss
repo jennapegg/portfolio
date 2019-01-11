@@ -78,6 +78,9 @@
     background: url(../../images/vinebackgroundmobile.jpg);
     background-size: cover;
     color: $header-text;
+    @include desktop {
+        height: 400px;
+    }
     img {
         width: 150px;
         height: 165px;
@@ -88,5 +91,9 @@
         border-radius: 30px;
         width: 45%;
         text-align: center;
+        @include desktop {
+            width: 30%;
+            font-size: 3rem;
+        }
     }
 }
