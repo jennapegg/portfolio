@@ -12,7 +12,7 @@ include('functions.php')
       </div>
       <section class ="index">
         <div class="indexabout">
-          <div>
+          <div class="aboutme">
             <p>I have completed the Web Development Diploma program at RED Academy, and through this have an excellent understanding of JavaScript, jQuery, PHP, CSS/SCSS, HTML, and more. I bring to a team a positive outlook and work ethic, and an ability to work efficiently both in a group setting and autonomously.</p>
             <p><a href="./about.php">Read More</a></p>
           </div>
