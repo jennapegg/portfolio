@@ -11,6 +11,11 @@
         justify-content: space-around;
         min-height: 60vh; 
         text-align: center;
+            @include tablet {
+                height: 90vh;
+                min-height: 500px;
+                max-height: 650px;
+            }
         p {
             &:first-of-type {
                 padding-bottom: 10px;
