@@ -4,6 +4,15 @@ footer {
     background: $background;
     color: $header-text;
     width: 100%;
+    @include tablet {
+        justify-content: space-between;
+        .contact {
+            margin-left: 10px;
+        }
+        .links {
+            margin-right: 10px;
+        }
+    }
     a{
         color: $header-text;
         text-decoration: none;
