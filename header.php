@@ -21,7 +21,9 @@
 <body>
 
 <header>
-<p><a href="./index.php">Home</a></p>
-<p><a href="./about.php">About Me</a></p>
-<p><a href="./projects.php">Projects</a></p>
+<p class="home"><a href="./index.php">Home</a></p>
+<div class="nav">
+  <p><a href="./about.php">About Me</a></p>
+  <p><a href="./projects.php">Projects</a></p>
+</div>
 </header>
