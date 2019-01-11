@@ -1,17 +1,38 @@
 footer {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     background: $background;
     color: $header-text;
     width: 100%;
     @include tablet {
+        flex-direction: row;
         justify-content: space-between;
-        .contact {
-            margin-left: 10px;
+        
+        
+    }
+    .links {
+        text-align: center;
+        display: flex;
+        p {
+            padding: 0 10px;
         }
-        .links {
+        @include tablet {
             margin-right: 10px;
+            padding: 0;
+            flex-direction: column;
         }
+    }
+    .contact {
+        text-align: center;
+        margin-top: 10px;
+        @include tablet {
+            margin-left: 10px;
+            text-align: left;
+        }
+    }
+    p {
+        margin-top: 0;
     }
     a{
         color: $header-text;
