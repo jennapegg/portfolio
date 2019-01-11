@@ -10,15 +10,39 @@
     min-height: 450px;
     max-height: 650px;
     color: $header-text;
+    @include tablet {
+        flex-direction: row;
+        align-items: flex-end;
+        height: 70vh;
+        min-height: 350px;
+        max-height: 500px;
+    }
     img {
         border-radius: 50%;
         height: 250px;
+        @include tablet {
+            border-radius: 20%;
+            height: 300px;
+            position: absolute;
+            left: 5%;
+            bottom: 25%;
+        }
     }
     .description{
         background: $background;
         width: 100%;
         text-align: center;
         margin-top: 15vh;
+        @include tablet {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding-right: 10%;
+            margin-top: 0;
+            h1 {
+                margin-right: 12px;
+            }
+        }
         p {
             font-size: 20px;
             font-weight: bolder;
