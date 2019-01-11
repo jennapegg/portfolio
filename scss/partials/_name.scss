@@ -17,6 +17,9 @@
         min-height: 450px;
         max-height: 450px;
     }
+    @include desktop {
+        min-height: 550px;
+    }
     img {
         border-radius: 50%;
         height: 250px;
@@ -26,6 +29,10 @@
             position: absolute;
             left: 5%;
             top: 150px;
+        }
+        @include desktop {
+            height: 400px;
+            top: 170px;
         }
     }
     .description{
@@ -39,13 +46,24 @@
             align-items: flex-end;
             padding-right: 10%;
             margin-top: 0;
-            h1 {
+        }
+        h1 {
+            @include tablet {
                 margin-right: 12px;
+             }
+             @include desktop {
+                font-size: 3rem;
+                margin-right: 0;
+                margin-top: 10px;
             }
         }
         p {
             font-size: 20px;
             font-weight: bolder;
+            @include desktop {
+                font-size: 25px;
+                margin: 0 0 20px 0;
+            }
         }
     }
    
