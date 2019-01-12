@@ -5,22 +5,22 @@ function get_projects(){
 $projects = array(
     array(
         'title' => 'UME Academy',
-        'url' => 'https://ume.van.cp.academy.red/',
+        'url' => './projects/umeproject',
         'thumbnail' => 'images/ume-thumbnail.png'
     ),
     array(
         'title' => 'Quotes on Dev',
-        'url' => '#',
+        'url' => './projects/quotesondevproject',
         'thumbnail' => 'images/quotesondev-thumbnail.png'
     ),
     array(
         'title' => 'Inhabitent',
-        'url' => './projects/Inhabitent',
+        'url' => './projects/inhabitentproject',
         'thumbnail' => 'images/inhabitent-thumbnail.png'
     ),
     array(
         'title' => 'Pong',
-        'url' => './projects/pong-starter',
+        'url' => './projects/pongproject',
         'thumbnail' => 'images/pong-thumbnail.png'
     ),
     array(
@@ -30,7 +30,7 @@ $projects = array(
     ),
     array(
         'title' => 'Aloha',
-        'url' => 'https://jennapegg.github.io/Aloha/',
+        'url' => './projects/alohaproject',
         'thumbnail' => 'images/aloha-thumbnail.png'
     ),
 );
@@ -39,9 +39,8 @@ $projects = array(
     <div class="gallery">
         <a href="<?php print_r($project['url']); ?>" target="_blank">
             <h3 class="title"><?php print_r($project['title']); ?></h3>
-            <img src="<?php print_r($project['thumbnail']); ?>" alt="Website Thumbnail">
+            <img src="<?php print_r($project['thumbnail']); ?>" alt="<?php print_r($project['title']); ?> Thumbnail">
         </a>
-        <!-- <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium suscipit in temporibus, similique eveniet quas exercitationem omnis earum error magni quam nihil quia quos. Dolorem optio inventore in ut unde.</p> -->
     </div>
 <?php endforeach; 
 
