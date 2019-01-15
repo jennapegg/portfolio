@@ -1,6 +1,6 @@
 <footer>
     <div class="contact">
-      <p><i class="fas fa-envelope-square"></i><a href="mailto:jenna.pegg.vic@gmail.com">jenna.pegg.vic@gmail.com</a></p>
+      <p><i class="fas fa-envelope-square"></i><a href="mailto:jenna@jennapegg.com">jenna@jennapegg.com</a></p>
       <p><i class="fas fa-phone-square"></i><a href="callto:6046538696">(604) 653-8696</a></p>
     </div>
     <div class="links">
