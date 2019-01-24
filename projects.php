@@ -7,10 +7,12 @@ include('functions.php');
         <h1>Projects</h1>
         <!-- <img src="images/headshot.jpg" alt="Jenna Pegg headshot"> -->
     </div>
-    <section class="projects">
-        <?php 
+    <section class="index">
+        <section class="projects">
+            <?php 
             get_projects();
-        ?>
+            ?>
+        </section>
     </section>
 </main>
 <?php include('footer.php') ?>
