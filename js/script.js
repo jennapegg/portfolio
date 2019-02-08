@@ -1,12 +1,11 @@
 $(document).ready(function() {
-  let $gallery = $('.gallery');
+  const $gallery = $('.gallery');
+  const $show = $('.show');
+
+  $show.hide();
 
   $gallery.hover(function() {
-    show();
+    $(this).find($show).toggle();
   })
 
-  function show() {
-    console.log('still works.');
-  }
-
-});
+});//end of doc.ready
