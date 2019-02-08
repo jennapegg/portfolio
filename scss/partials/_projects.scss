@@ -7,6 +7,7 @@
     }
     .gallery {
     display: inline-block;
+    position: relative;
     width: 100%;
     height: 200px;
     object-fit: fill;
@@ -27,21 +28,25 @@
             height: 100%;
             object-fit: cover;
         }
-        .title {
-            display: none;
-            width: 50%;
-            text-align: center;
-            background: $background;
-            color: $header-text;
-            padding: 10px;
-            border-radius: 40px;
-            margin-left: 25%;
-            &:hover {
-                color: $hover;
+        .show {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: absolute;
+            background: rgba(0, 0, 0, 0.5);
+            width: 100%;
+            height: 100%;
+            .title {
+                color: $header-text;
+                padding: 10px;
+                &:hover {
+                    color: $hover;
+                }
             }
-        }
-        .description {
-            color: $header-text;
+            .description {
+                color: $header-text;
+                padding: 0 10px;
+            }
         }
     }
 }
