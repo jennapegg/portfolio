@@ -1,3 +1,12 @@
 $(document).ready(function() {
-  console.log('works');
+  let $gallery = $('.gallery');
+
+  $gallery.hover(function() {
+    show();
+  })
+
+  function show() {
+    console.log('still works.');
+  }
+
 });
